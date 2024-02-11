@@ -1,0 +1,8 @@
+git stash 
+git stash list
+git stash pop - последното маха (Не е добра практика)
+Добра практика:
+git stash apply <число>
+git stash drop <число> 
+
+git restore <име на файл> - връща последния commit
