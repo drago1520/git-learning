@@ -23,3 +23,6 @@ git diff [first commit] [second commit]
 Branches:
 git branch - като git log
 git branch <branchName> - нов клон
+
+git checkout <main branch to merge>
+git merge <secondary branch to merge>
