@@ -34,6 +34,8 @@ git merge <secondary branch to merge>
 git branch -d <branch> - Delete branch (-D = force)
 git push origin --delete <branch> - Delete branch remotely
 
+git branch -M <branch> - rename branch
+
 Pull:
 git checkout <branch> - в коя локална ще дърпам
 git pull origin <remote branch> - от коя ще дърпам
