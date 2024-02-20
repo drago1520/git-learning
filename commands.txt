@@ -5,4 +5,17 @@ git stash pop - последното маха (Не е добра практик
 git stash apply <число>
 git stash drop <число> 
 
+git status 
+
+UNDO after commit & Unstage:
+
 git restore <име на файл> - връща последния commit
+git restore --staged <име на файл> - маха от staging area.
+
+Log commits [EASY]:
+git log --oneline
+
+Compare changes:
+
+git diff 
+git diff [first commit] [second commit]
