@@ -28,3 +28,4 @@ git checkout <main branch to merge>
 git merge <secondary branch to merge>
 
 git branch -d <branch> - Delete branch
+git push origin --delete <branch> - Delete branch remotely
