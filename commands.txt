@@ -21,13 +21,17 @@ git diff
 git diff [first commit] [second commit]
 
 Branches:
-git branch - като git log
+git branch - като git log (-v detailed info for all branched)
+
+git fetch --all
+git branch -r - Виж remote branches
+
 git branch <branchName> - нов клон
 
 git checkout <main branch to merge>
 git merge <secondary branch to merge>
 
-git branch -d <branch> - Delete branch
+git branch -d <branch> - Delete branch (-D = force)
 git push origin --delete <branch> - Delete branch remotely
 
 Pull:
@@ -35,3 +39,21 @@ git checkout <branch> - в коя локална ще дърпам
 git pull origin <remote branch> - от коя ще дърпам
 
 *--allow-unrelated-histories - fatal: refusing to merge unrelated histories
+
+Merge:
+git checkout <main branch to merge>
+git merge <secondary branch to merge>
+
+git branch --merged
+git branch --no-merged - Стои си без да се изполва. Трябва да я присъединя
+
+Shortcuts:
+git add .
+git commit -m "<Detailed commit message>"
+vs
+git commit -am "<Detailed commit message>" - ONLY if already tracked, i.e. made at least once with git add .
+
+git branch <branch>
+git checkout <branch>
+vs
+git checkout -b <branch>
