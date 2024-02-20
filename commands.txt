@@ -29,3 +29,9 @@ git merge <secondary branch to merge>
 
 git branch -d <branch> - Delete branch
 git push origin --delete <branch> - Delete branch remotely
+
+Pull:
+git checkout <branch> - в коя локална ще дърпам
+git pull origin <remote branch> - от коя ще дърпам
+
+*--allow-unrelated-histories - fatal: refusing to merge unrelated histories
