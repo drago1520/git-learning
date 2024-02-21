@@ -70,3 +70,13 @@ git rebase -i <commit/ relative HEAD~#> - трябва hash преди първ�
 
 Come to a commit WITHOUT altering history:
 git revert <commit/ relative HEAD~#> - кой да изтрие?
+
+Delete/ Change commits:
+NB! Прави всичко след дадения commit и на другите commit-и!!!!!
+
+git reset --soft <commit hash/ HEAD~#> - от commit --> staging (Не маха промените, но мести към staging и маха commit-a)
+
+git reset --mixed <commit hash/ HEAD~#> 
+или git reset <commit hash/ HEAD~#> - от commit --> unstaged (промените все още ги има)
+
+git reset --hard <commit hash/ HEAD~#> - трие всичко след дадения commit!!!
