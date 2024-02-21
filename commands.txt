@@ -59,3 +59,8 @@ git branch <branch>
 git checkout <branch>
 vs
 git checkout -b <branch>
+
+Connect remote repo:
+
+git remote add origin main - 
+git push -u origin main - -u Задължително първия път. Започва да следи upstream dx!
