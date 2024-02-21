@@ -68,5 +68,5 @@ git push -u origin main - -u Задължително първия път. За�
 Squash:
 git rebase -i <commit/ relative HEAD~#> - трябва hash преди първия squash.
 
-Delete commit:
+Come to a commit WITHOUT altering history:
 git revert <commit/ relative HEAD~#> - кой да изтрие?
