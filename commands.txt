@@ -74,9 +74,28 @@ git revert <commit/ relative HEAD~#> - кой да изтрие?
 Delete/ Change commits:
 NB! Прави всичко след дадения commit и на другите commit-и!!!!!
 
-git reset --soft <commit hash/ HEAD~#> - от commit --> staging (Не маха промените, но мести към staging и маха commit-a)
+git reset --soft <commit hash*/ HEAD~#> - от commit --> staging (Не маха промените, но мести към staging и маха commit-a)
 
-git reset --mixed <commit hash/ HEAD~#> 
-или git reset <commit hash/ HEAD~#> - от commit --> unstaged (промените все още ги има)
+git reset --mixed <commit hash*/ HEAD~#> 
+или git reset <commit hash*/ HEAD~#> - от commit --> unstaged (промените все още ги има)
 
-git reset --hard <commit hash/ HEAD~#> - трие всичко след дадения commit!!!
+git reset --hard <commit hash*/ HEAD~#> - трие всичко след дадения commit!!!
+
+*трябва commit hash преди commit-a, който искаш
+
+Tag/ Version:
+git tag <tag name> - tag the recent commit
+git tag <tag name> <commit> - tag any commit
+
+git tag --list
+
+git tag -d <tag name>
+git push origin <tag name>
+
+Checkout:
+git checkout <commit/ tag name/ HEAD~#> - да видиш какво е било; При нов commit ще разруши новите, като прави нов timeline
+
+git checkout <branch>
+
+Delete in online repo:
+git push origin <branch> -f - FORCE PUSH!!!
