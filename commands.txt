@@ -99,36 +99,3 @@ git checkout <branch>
 
 Delete in online repo:
 git push origin <branch> -f - FORCE PUSH!!!
-
-Clone & Fork:
-fork from GUI
-don't touch main branch --> create a new one for the feature!
-git clone <HTTPS> - it has the remote repo connected!
-pull request to original repo from GUI
-
-git remote rm origin
-
-git remote - като log, но към кои remote съм се свързал
-
-README.md - Project:
-Project information
-Screenshots
-🖥Docs
-API references
-Tech Stack
-Installation process
-Deployment process
-
-README.md - Personal:
-Current Working
-Current Learning
-Social Media Profiles
-Blog Post
-Languages & Tools
-Github Analytics
-Publications
-Side Projects
-This looks like a navi
-
-Resources:
-ICONS - shields.io & simpleicons.org
