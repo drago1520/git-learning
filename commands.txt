@@ -23,10 +23,10 @@ git diff [first commit] [second commit]
 Branches:
 git branch - като git log (-v detailed info for all branched)
 
-git fetch --alldwdqrfQ3RFEQQRq3rqWF
+git fetch --all
 git branch -r - Виж remote branches
 
-git branch <branchName> - нов клонQWERq3r
+git branch <branchName> - нов клон
 
 git checkout <main branch to merge>
 git merge <secondary branch to merge>
